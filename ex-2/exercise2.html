@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptK</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #18181B;
+            color: #A1A1AA;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #ee6c4d; 
+            margin: 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .menu-button {
+            background-color: #095f80;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-button:hover {
+            background-color: #074b66;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            color: #A1A1AA;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1f1f23;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2a2a2e;
+        }
+
+        #prev-page, #next-page, #prev-task, #next-task {
+            background-color: #095f80;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 50px;
+            margin: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #prev-page:hover, #next-page:hover, #prev-task:hover, #next-task:hover {
+            background-color: #074b66;
+        }
+
+        button {
+            background-color: #095f80;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #074b66;
+        }
+
+        #filter {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            background-color: #2a2b2c;
+            color: #A1A1AA;
+        }
+
+        #filter:focus {
+            outline: none;
+            border-color: #10B981;
+            box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="checkbox"],
+        .form-group input[type="radio"] {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #2a2b2c;
+            color: #A1A1AA;
+        }
+
+        .form-group button {
+            background-color: #095f80;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-group button:hover {
+            background-color: #074b66;
+        }
+
+        #paragraph {
+            font-size: 18px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .text-container {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #18181B;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            color: #A1A1AA;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise -2 Interactive Data Table</h1>
+        
+    </div>
+    <h4> Madala Navadeep</h4>
+    <h5>2100030306</h5>
+    <br><br>
+
+    <input type="text" id="filter" placeholder="Filter...">
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th data-column="productName" data-order="desc">Product Name</th>
+                <th data-column="price" data-order="desc">Price</th>
+                <th data-column="category" data-order="desc">Category</th>
+                <th data-column="quantity" data-order="desc">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table data goes here -->
+        </tbody>
+    </table>
+    <div>
+        <button id="prev-page">Previous</button>
+        <span id="page-info"></span>
+        <button id="next-page">Next</button>
+    </div>
+    
+    <div>
+        <button id="prev-task" onclick="location.href='../ex-1/exercise1.html'" >Previous Task</button>
+        <button id="next-task" onclick="location.href='../ex-3/exercise3.html'">Next Task</button>
+    </div>
+
+  
+  
+    <script src="exercise2.js"></script>
+</body>
+</html>
