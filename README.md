@@ -1,5 +1,6 @@
 # Frontend_2100030306
 The three functionalities implemented are: 
+
 1.Build forms dynamically using JavaScript to add/remove text inputs, checkboxes, and radio buttons. 
 
 2.Create interactive data tables with sorting, filtering, and pagination features for large datasets. 
