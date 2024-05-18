@@ -20,7 +20,8 @@ At first, when you open the page, Task 1 will be shown. You'll notice two button
 ![Screenshot (2554)](https://github.com/2100030306Nav/Frontend_2100030306/assets/110444840/f962e670-f308-4aaa-a08e-8074dd05e287)
 
 ## Exercise 3
-![Screenshot (2555)](https://github.com/2100030306Nav/Frontend_2100030306/assets/110444840/3e1b79d2-0a1f-4231-aff3-8704cd64da48)
+
+![Screenshot (2556)](https://github.com/2100030306Nav/Frontend_2100030306/assets/110444840/257ff880-b02b-4b53-b83f-60582074e8cf)
 
 
 
